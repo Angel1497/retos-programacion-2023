@@ -19,5 +19,5 @@ function stairs(num){
             console.log(' '.repeat(num - i) + '|_');
             console.log('\n');
         }
-    }else return stair;
+    }else if(num == 0) return stair;
 }
